@@ -1,98 +1,162 @@
-/*Header*/
+/* Header */
 
 body {
-    font-family: Helvetica;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
-header {
-    background: #444;
-    height: 100px;
+header ul {
+  float: right;
 }
 
-nav {
-    width: 960px;
-    margin: 0px auto;
+header li {
+  display: inline-block;
 }
 
-header img {
-    float: left;
-    margin-top: 15px;
-    margin-right: 30px;
+header div {
+  align-items: left;
 }
 
-header ul li {
-    display: inline-block;
-    margin-top: 40px;
-    margin-right: 75px;
+header div div {
+  display: inline-block;
 }
 
-a {
-    text-decoration: none;
-    color: #888
+#topHeaderRow {
+  height: 15px;
+   background-image: linear-gradient(45deg, #888 25%, transparent 25%, transparent 50%, #888 50%, #888 75%, transparent 75%, transparent);
+   background-size: 4px 4px;
+   width: 100%;
 }
 
-/* MAIN - SUB BANNERS */
-
-main {
-    width: 960px;
-    margin: 30px auto;
-}
-
-main ul li {
-    list-style: none;
-    float: left;
-    margin: 30px 30px 30px 0px;
-}
-
-main ul li:last-child {
-    margin-right: 0px;
-}
-
-/* FEATURED SECTION */
-
-section img {
-    float: left;
-}
-
-section div {
-    float: left;
-    padding-left: 30px;
-    margin-bottom: 30px;
-    width: calc(50% - 30px);
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 35px;
 }
 
 h2 {
-    font-size: 20px;
+  font-family: 'VT323', monospace;
+  color:rgb(117, 117, 117);
+  font-size: 15px;
 }
 
-section div p {
-    height: 320px;
-    overflow: auto;
-    font-size: 18px;
-    line-height: 24px;
-    font-style: italic;
+h3 {
+  font-family: 'Francois One', sans-serif;
+  font-size: 40px;
+}
+
+h4 {
+  font-family: 'VT323', monospace;
+  font-size: 10lx;
+  color:rgb(134, 133, 133);
+}
+
+#print {
+  float:right;
+  /*display:inline; Rachel said to use if necessary*/
+}
+
+/* Main - Sub Banners */
+
+main div p {
+  margin-top: 20px;
+  text-indent: 34px;
+  color:rgb(102, 101, 101);
+}
+
+main ul {
+  width: 49%;
+  display: inline-block;
+  text-indent: 50px;
+  margin-bottom: 40px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
+  color:rgb(77, 75, 75);
+}
+
+main li:first-child {
+  margin-top: 30px;
+}
+
+#pizza {
+    width: 100%
+}
+
+#ingredientsList {
+  margin-top:20px; 
+  background: url(img/list-bg.png);
+  box-shadow: 5px 5px 5px rgb(144, 144, 144);
+  margin-bottom: 20px;
+}
+
+/*
+#vanessaBioInfo button {
+  display:inline-block;
+  right: -500px;
+}*/
+
+#bio {
+ image-orientation:left;
 }
 
 button {
-    border: none;
-    padding: 10px 30px;
-    background-color: #000;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 3px;
-    margin-top: 15px;
-    transition: 350ms;
-    cursor: pointer;
+  background-color: rgb(160, 82, 30);
+  border: none;
+  color: rgb(231, 229, 229);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
 }
 
-button:hover {
-    background:pink;
+#shareRecipeButton {
+  float: right;
+  margin: -10px 0px 15px;
 }
 
-/* FOOTER */
+#vanessaText {
+  display: inline-block;
+  width: 400px;  
+  margin: 10px;
+  text-indent: 0px;
+  margin-bottom: 70px;
+}
+
+h5 {
+  text-indent: 10px;
+  line-height:10px;
+  font-size: 20px;
+  margin: 30px;
+  margin-bottom:0px;
+}
+
+/* Footer */
 
 footer {
-    clear: both;
-    background: #444;
-    height: 150px;
+  text-align: center;
+  color: rgb(99, 98, 98);
+  font-size: 15px;
+  position: relative;
+}
+
+footer p {
+  opacity: 0.5;
+}
+
+footer img {
+  position: absolute;
+  top: -55px;
+}
+
+footer p:first-child {
+  margin-top:50px;
+}
+
+footer p:last-child {
+  margin-bottom:50px;
+}
+
+#bottomHeaderRow {
+  margin-bottom:40px;
 }
