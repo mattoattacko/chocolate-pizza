@@ -1,0 +1,162 @@
+/* Header */
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+header ul {
+  float: right;
+}
+
+header li {
+  display: inline-block;
+}
+
+header div {
+  align-items: left;
+}
+
+header div div {
+  display: inline-block;
+}
+
+#topHeaderRow {
+  height: 15px;
+   background-image: linear-gradient(45deg, #888 25%, transparent 25%, transparent 50%, #888 50%, #888 75%, transparent 75%, transparent);
+   background-size: 4px 4px;
+   width: 100%;
+}
+
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 35px;
+}
+
+h2 {
+  font-family: 'VT323', monospace;
+  color:rgb(117, 117, 117);
+  font-size: 15px;
+}
+
+h3 {
+  font-family: 'Francois One', sans-serif;
+  font-size: 40px;
+}
+
+h4 {
+  font-family: 'VT323', monospace;
+  font-size: 10lx;
+  color:rgb(134, 133, 133);
+}
+
+#print {
+  float:right;
+  /*display:inline; Rachel said to use if necessary*/
+}
+
+/* Main - Sub Banners */
+
+main div p {
+  margin-top: 20px;
+  text-indent: 34px;
+  color:rgb(102, 101, 101);
+}
+
+main ul {
+  width: 49%;
+  display: inline-block;
+  text-indent: 50px;
+  margin-bottom: 40px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
+  color:rgb(77, 75, 75);
+}
+
+main li:first-child {
+  margin-top: 30px;
+}
+
+#pizza {
+    width: 100%
+}
+
+#ingredientsList {
+  margin-top:20px; 
+  background: url(img/list-bg.png);
+  box-shadow: 5px 5px 5px rgb(144, 144, 144);
+  margin-bottom: 20px;
+}
+
+/*
+#vanessaBioInfo button {
+  display:inline-block;
+  right: -500px;
+}*/
+
+#bio {
+ image-orientation:left;
+}
+
+button {
+  background-color: rgb(160, 82, 30);
+  border: none;
+  color: rgb(231, 229, 229);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+#shareRecipeButton {
+  float: right;
+  margin: -10px 0px 15px;
+}
+
+#vanessaText {
+  display: inline-block;
+  width: 400px;  
+  margin: 10px;
+  text-indent: 0px;
+  margin-bottom: 70px;
+}
+
+h5 {
+  text-indent: 10px;
+  line-height:10px;
+  font-size: 20px;
+  margin: 30px;
+  margin-bottom:0px;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  color: rgb(99, 98, 98);
+  font-size: 15px;
+  position: relative;
+}
+
+footer p {
+  opacity: 0.5;
+}
+
+footer img {
+  position: absolute;
+  top: -55px;
+}
+
+footer p:first-child {
+  margin-top:50px;
+}
+
+footer p:last-child {
+  margin-bottom:50px;
+}
+
+#bottomHeaderRow {
+  margin-bottom:40px;
+}
